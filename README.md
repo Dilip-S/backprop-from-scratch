@@ -54,7 +54,12 @@ The loss function approaching zero when prediction matches the ground truth and 
 Sigmoid: sigmoid(x) = 1 / (1 + e^-x)
 Sigmoid derivative: s * (1 - s), where s = sigmoid(x)     
 ![Sigmoid Function](sigmoid.png)
-Sigmoid function is non-linear, continuous/differentiable everywhere, monotonically increasing, derivative is also a variant of sigmoid function, numerically bounded: [0,1] all reasons making it a good choice as activation function for neural nets
+Sigmoids are a good activation function choice because :
+- non-linear
+- continuous/differentiable everywhere
+- monotonically increasing
+- derivative is also a variant of sigmoid function
+- numerically bounded: [0,1] 
 
 ### Vanishing gradient problem
 Even though sigmoids were popular activation functions used in early neural networks they are not popular in modern deep neural networks. One of the main reasons being vanishing gradient problem.
