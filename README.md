@@ -1,5 +1,5 @@
 # Neural Net & Backprop From Scratch
-## What this repo about
+## What this repo is about
 Designing a neural net solution to learn from data to solve the XOR problem. Built as a deliberate learning exercise to revisit neural nets and backpropagation after years of training neural networks in production
 
 ## Why XOR
